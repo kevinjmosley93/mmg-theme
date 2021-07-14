@@ -1,0 +1,31 @@
+.header2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 80px;
+  a {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__collections-nav {
+    a {
+      padding-right: 20px;
+      display: 'inline-block';
+    }
+  }
+  &__logo {
+    a {
+      font-size: 2rem;
+      font-family: 'Patua One', cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
