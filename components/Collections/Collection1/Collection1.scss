@@ -1,5 +1,5 @@
 .collection1 {
-  padding: 100px 0;
+  padding: 50px 0;
   &__collection-item {
   }
   &__product-img {
@@ -8,8 +8,61 @@
     justify-content: center;
     align-items: center;
     height: 550px;
+    margin-bottom: 10px;
+    position: relative;
     img {
       max-width: 70%;
+      &:hover {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.2);
+      }
+    }
+  }
+  &__heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.4rem;
+    color: #a8a8c1;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      color: #fb6f92;
+      transform: scale(1.2);
+    }
+  }
+  &__product-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__product-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+  }
+  &__product-price {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  &__colors {
+    display: flex;
+  }
+  &__color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    &--black {
+      background: black;
+    }
+    &--blue {
+      background: blue;
+    }
+    &--red {
+      background: red;
+    }
+    &--yellow {
+      background: yellow;
     }
   }
 }

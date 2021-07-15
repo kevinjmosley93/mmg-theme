@@ -1,4 +1,4 @@
-.collection2 {
+.collection3 {
   padding: 100px 0;
   &__collection-item {
   }
@@ -11,13 +11,36 @@
     margin-bottom: 10px;
     position: relative;
     img {
-      max-width: 70%;
-      &:hover {
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-        transform: scale(1.2);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    &:hover {
+      cursor: pointer;
+      .collection3__img-front {
+        opacity: 0;
+      }
+      .collection3__img-back {
+        opacity: 1;
       }
     }
+  }
+  &__img-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+  }
+  &__img-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
   }
   &__heart {
     position: absolute;
@@ -26,6 +49,7 @@
     font-size: 1.4rem;
     color: #a8a8c1;
     transition: all 0.3s ease-in-out;
+    z-index: 2;
     &:hover {
       cursor: pointer;
       color: #fb6f92;
