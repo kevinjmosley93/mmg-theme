@@ -3,7 +3,7 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
-  margin-bottom: 50px;
+  padding-bottom: 500px;
 
   &.aligned-center {
     .hero1__content-container {
@@ -13,13 +13,13 @@
   &.aligned-left {
     .hero1__content-container {
       justify-content: flex-start;
-      padding-left: 10rem;
+      padding-left: 2.5rem;
     }
   }
   &.aligned-right {
     .hero1__content-container {
       justify-content: flex-end;
-      padding-right: 10rem;
+      padding-right: 2.5rem;
     }
   }
   &__bg-img {

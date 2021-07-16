@@ -6,12 +6,12 @@ const Footer = () => {
       <footer className='footer'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-2'>
+            <div className='col-md-2 mb-md-0 mb-4'>
               <div className='footer__logo'>logo</div>
             </div>
             <div className='col-md-8'>
               <div className='row'>
-                <div className='col-lg-4'>
+                <div className='col-md-4 col-6'>
                   <div className='footer__links'>
                     <span className='footer__column-title'>Get Help</span>
                     <a className='footer__link'>Link</a>
@@ -19,7 +19,7 @@ const Footer = () => {
                     <a className='footer__link'>Link</a>
                   </div>
                 </div>
-                <div className='col-lg-4'>
+                <div className='col-md-4 col-6'>
                   <div className='footer__links'>
                     <span className='footer__column-title'>Get Help</span>
                     <a className='footer__link'>Link</a>
@@ -27,7 +27,7 @@ const Footer = () => {
                     <a className='footer__link'>Link</a>
                   </div>
                 </div>
-                <div className='col-lg-4'>
+                <div className='col-md-4 col-sm-12 d-md-block d-none'>
                   <div className='footer__links'>
                     <span className='footer__column-title'>Get Help</span>
                     <a className='footer__link'>Link</a>
@@ -37,17 +37,19 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-2'>
+            <div className='col-md-2'>
               <div className='footer__extra'>
                 <span className='footer__column-title'>
                   Sign Up for Email Newsletter
                 </span>
+                <div></div>
                 <input
                   placeholder='email@comany.com'
-                  classNamr='footer__input'
+                  className='footer__input'
                   type='text'
                   name='email_newsletter'
                 />
+                <a className='btn btn-sm btn-primary'>Send</a>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                   quis sem vitae mauris viverra luctus. Pellentesque sit amet

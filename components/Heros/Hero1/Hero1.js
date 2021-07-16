@@ -3,7 +3,7 @@ import React from 'react'
 const Hero1 = () => {
   return (
     <>
-      <div className='hero hero1 aligned-right'>
+      <div className='hero hero1 aligned-center'>
         <img
           src='https://images.unsplash.com/photo-1470072508653-1be229b63562?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
           className='hero1__bg-img'

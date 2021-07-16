@@ -18,11 +18,13 @@ a {
   &.transparent-nav {
     .header {
       background: transparent;
+
       a {
         color: white;
       }
     }
   }
+
   .header {
     position: fixed;
     width: 100%;

@@ -4,6 +4,7 @@ const Collection1 = () => {
   return (
     <div className='collection collection1'>
       <div className='container'>
+        <h1>Collection 1</h1>
         <div className='row justify-content-center align-items-center'>
           <div className='col-md-4'>
             <div className='collection1__collection-item'>
