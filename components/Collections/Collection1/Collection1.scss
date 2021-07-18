@@ -1,13 +1,13 @@
 .collection1 {
   padding: 50px 0;
-  &__collection-item {
-  }
+  background-color: black;
+  color: white;
   &__product-img {
     background: rgb(235, 230, 230);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 350px;
     margin-bottom: 10px;
     position: relative;
     img {

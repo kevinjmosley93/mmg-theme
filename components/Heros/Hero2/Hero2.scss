@@ -78,6 +78,11 @@
     border: 3px solid white;
     font-weight: 700;
     font-size: 0.9rem;
+    @media (max-width: 768px) {
+      padding: 10px 5px;
+      width: 120px;
+      font-size: 0.5rem;
+    }
     &:hover {
       background: white;
       color: black;

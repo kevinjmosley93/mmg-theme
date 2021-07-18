@@ -14,14 +14,14 @@ class MyDocument extends Document {
             rel='stylesheet'
             href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'
             integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=='
-            crossOrigin='anonymous'
+            crossOrigin='true'
             referrerPolicy='no-referrer'
           />
           <link
             rel='stylesheet'
             href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css'
             integrity='sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA=='
-            crossOrigin='anonymous'
+            crossOrigin='true'
             referrerPolicy='no-referrer'
           />
           <link rel='preconnect' href='https://fonts.googleapis.com' />

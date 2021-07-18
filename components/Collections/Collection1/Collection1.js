@@ -23,7 +23,7 @@ const Collection1 = () => {
                 <div className='collection1__colors'>
                   <div className='collection1__color collection1__color--blue'></div>
 
-                  <div className='collection1__color collection1__color--black'></div>
+                  <div className='collection1__color collection1__color--red'></div>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Collection1 = () => {
                 <div className='collection1__colors'>
                   <div className='collection1__color collection1__color--blue'></div>
 
-                  <div className='collection1__color collection1__color--black'></div>
+                  <div className='collection1__color collection1__color--red'></div>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ const Collection1 = () => {
                 <div className='collection1__colors'>
                   <div className='collection1__color collection1__color--blue'></div>
 
-                  <div className='collection1__color collection1__color--black'></div>
+                  <div className='collection1__color collection1__color--red'></div>
                 </div>
               </div>
             </div>
