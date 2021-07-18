@@ -6,10 +6,10 @@ const Footer = () => {
       <footer className='footer'>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-2 mb-md-0 mb-4'>
+            <div className='col-md-1 mb-md-0 mb-4'>
               <div className='footer__logo'>logo</div>
             </div>
-            <div className='col-md-8'>
+            <div className='col-md-7'>
               <div className='row'>
                 <div className='col-md-4 col-6'>
                   <div className='footer__links'>
@@ -37,14 +37,14 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-2'>
+            <div className='col-md-4'>
               <div className='footer__extra'>
                 <span className='footer__column-title'>
                   Sign Up for Email Newsletter
                 </span>
                 <div></div>
                 <input
-                  placeholder='email@comany.com'
+                  placeholder='email@company.com'
                   className='footer__input'
                   type='text'
                   name='email_newsletter'

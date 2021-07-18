@@ -29,9 +29,6 @@ const ImgRight = () => {
               <a type='button' className='btn btn-primary btn-lg px-4 me-md-2'>
                 View Collections
               </a>
-              <a type='button' className='btn btn-lg px-4'>
-                How We Got Started
-              </a>
             </div>
           </div>
         </div>

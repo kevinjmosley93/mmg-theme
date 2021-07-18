@@ -8,10 +8,10 @@ const ImgLeft = () => {
           <div className='col-10 col-sm-8 col-lg-6'>
             <img
               src='https://images.unsplash.com/photo-1601002975252-7a3a3309511a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJsYWNrJTIwbW9kZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60'
-              className='d-block mx-lg-auto img-fluid rounded'
+              className='d-block mx-auto img-fluid rounded'
               alt='Bootstrap Themes'
-              width='500'
-              height='500'
+              width='300'
+              height='300'
               loading='lazy'
             />
           </div>
@@ -28,9 +28,6 @@ const ImgLeft = () => {
             <div className='d-grid gap-2 d-md-flex justify-content-md-start'>
               <a type='button' className='btn btn-primary btn-lg px-4 me-md-2'>
                 View Collections
-              </a>
-              <a type='button' className='btn btn-lg px-4'>
-                How We Got Started
               </a>
             </div>
           </div>
