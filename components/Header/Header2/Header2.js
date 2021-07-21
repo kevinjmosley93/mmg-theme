@@ -7,9 +7,15 @@ const Header2 = () => {
         <a>Company</a>
       </div>
       <div className='header2__collections-nav'>
-        <a>Link</a>
-        <a>Link</a>
-        <a>Link</a>
+        <a href='#' className='header2__collection-link'>
+          Link
+        </a>
+        <a href='#' className='header2__collection-link'>
+          Link
+        </a>
+        <a href='#' className='header2__collection-link'>
+          Link
+        </a>
       </div>
 
       <div className='header2__collections-nav'>

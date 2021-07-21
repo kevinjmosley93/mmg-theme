@@ -9,9 +9,15 @@ const Header3 = () => {
 
       <div className='header3__collections-nav'>
         <div className='header3__collections-nav'>
-          <a>Link</a>
-          <a>Link</a>
-          <a>Link</a>
+          <a href='#' className='header3__collection-link'>
+            Link
+          </a>
+          <a href='#' className='header3__collection-link'>
+            Link
+          </a>
+          <a href='#' className='header3__collection-link'>
+            Link
+          </a>
           <a>
             <i className='fas fa-user'></i>
           </a>

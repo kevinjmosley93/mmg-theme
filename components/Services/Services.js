@@ -6,14 +6,14 @@ const Services = () => {
       style={{ backgroundColor: 'black', padding: '4rem 1rem' }}
       className='text-light '>
       <div className='container '>
-        <div class='row'>
-          <div class='col-md-4'>
-            <figure class='item-feature'>
-              <span class='text-primary'>
-                <i class='fa fa-2x fa-truck'></i>
+        <div className='row'>
+          <div className='col-md-4'>
+            <figure className='item-feature'>
+              <span className='text-primary'>
+                <i className='fa fa-2x fa-truck'></i>
               </span>
-              <figcaption class='pt-3'>
-                <h5 class='title'>Fast delivery</h5>
+              <figcaption className='pt-3'>
+                <h5 className='title'>Fast delivery</h5>
                 <p>
                   Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore{' '}
@@ -21,13 +21,13 @@ const Services = () => {
               </figcaption>
             </figure>
           </div>
-          <div class='col-md-4'>
-            <figure class='item-feature'>
-              <span class='text-primary'>
-                <i class='fa fa-2x fa-landmark'></i>
+          <div className='col-md-4'>
+            <figure className='item-feature'>
+              <span className='text-primary'>
+                <i className='fas fa-2x fa-phone'></i>
               </span>
-              <figcaption class='pt-3'>
-                <h5 class='title'>Creative Strategy</h5>
+              <figcaption className='pt-3'>
+                <h5 className='title'>24/7 Customer Service</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod
@@ -35,13 +35,13 @@ const Services = () => {
               </figcaption>
             </figure>
           </div>
-          <div class='col-md-4'>
-            <figure class='item-feature'>
-              <span class='text-primary'>
-                <i class='fa fa-2x fa-lock'></i>
+          <div className='col-md-4'>
+            <figure className='item-feature'>
+              <span className='text-primary'>
+                <i className='fa fa-2x fa-lock'></i>
               </span>
-              <figcaption class='pt-3'>
-                <h5 class='title'>High secured </h5>
+              <figcaption className='pt-3'>
+                <h5 className='title'>Money Back Guarantee</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod
