@@ -8,23 +8,40 @@ const Header3 = () => {
       </div>
 
       <div className='header3__collections-nav'>
-        <div className='header3__collections-nav'>
-          <a href='#' className='header3__collection-link'>
-            Link
-          </a>
-          <a href='#' className='header3__collection-link'>
-            Link
-          </a>
-          <a href='#' className='header3__collection-link'>
-            Link
-          </a>
+        <ul className='header3__collections-nav d-lg-block d-none'>
+          <li className='header3__collection-link'>
+            <a href='/link'>
+              Link <i className='fas fa-chevron-down'></i>
+            </a>
+            <ul className='collection-link__sub-links'>
+              <li>
+                <a href='#'>Link</a>
+              </li>
+              <li>
+                <a href='#'>Link</a>
+              </li>
+              <li>
+                <a href='#'>Link</a>
+              </li>
+              <li>
+                <a href='#'>Link</a>
+              </li>
+            </ul>
+          </li>
+
+          <li className='header3__collection-link'>
+            <a href='/link'>Link</a>
+          </li>
+          <li className='header3__collection-link'>
+            <a href='/link'>Link</a>
+          </li>
           <a>
             <i className='fas fa-user'></i>
           </a>
           <a>
             <i className='fas fa-shopping-cart'></i>
           </a>
-        </div>
+        </ul>
       </div>
     </header>
   )
