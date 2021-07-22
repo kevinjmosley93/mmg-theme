@@ -9,6 +9,7 @@ import Collection3 from '../components/Collections/Collection3/Collection3'
 import ImgLeft from '../components/ImgWithText/ImgLeft'
 import Services from '../components/Services/Services'
 import Video from '../components/Video/Video'
+import Collection4 from '../components/Collections/Collection4/Collection4'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero2 />
+      {/* <Collection4 /> */}
       <ImgLeft />
       <Services />
       <Collection2 />
