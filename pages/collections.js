@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import MainLayout from '../components/layouts/MainLayout'
 import Collection1 from '../components/Collections/Collection1/Collection1'
-import Collection2 from '../components/Collections/Collection2/Collection2'
 import Collection3 from '../components/Collections/Collection3/Collection3'
 
 export default function Collections() {
@@ -15,9 +14,6 @@ export default function Collections() {
       <h1 style={{ padding: '2rem', textAlign: 'center' }}>All Collections</h1>
       <div className='comp-space'>
         <Collection1 />
-      </div>
-      <div className='comp-space'>
-        <Collection2 />
       </div>
       <div className='comp-space'>
         <Collection3 />
