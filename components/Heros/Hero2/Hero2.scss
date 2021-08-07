@@ -5,6 +5,18 @@
   position: relative;
   display: flex;
   margin-bottom: 50px;
+  &--25vh {
+    height: 25vh;
+  }
+  &--50vh {
+    height: 50vh;
+  }
+  &--75vh {
+    height: 75vh;
+  }
+  &--100vh {
+    height: 100vh;
+  }
 
   .hero2__collection1 {
     width: 50%;

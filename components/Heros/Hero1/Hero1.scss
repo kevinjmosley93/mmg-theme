@@ -4,7 +4,18 @@
   overflow: hidden;
   position: relative;
   padding-bottom: 500px;
-
+  &--25vh {
+    height: 25vh;
+  }
+  &--50vh {
+    height: 50vh;
+  }
+  &--75vh {
+    height: 75vh;
+  }
+  &--100vh {
+    height: 100vh;
+  }
   &.aligned-center {
     .hero1__content-container {
       justify-content: center;
