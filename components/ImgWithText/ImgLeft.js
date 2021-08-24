@@ -9,9 +9,9 @@ const ImgLeft = () => {
             <img
               src='https://images.unsplash.com/photo-1601002975252-7a3a3309511a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJsYWNrJTIwbW9kZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60'
               className='d-block mx-auto img-fluid rounded'
-              alt='Bootstrap Themes'
-              width='300'
-              height='300'
+              alt='img text'
+              width='250'
+              height='250'
               loading='lazy'
             />
           </div>

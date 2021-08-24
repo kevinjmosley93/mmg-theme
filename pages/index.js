@@ -23,8 +23,8 @@ export default function Home() {
       <ImgLeft />
       <Services />
       <Collection1 />
-      <Video />
-      {/* <Collection3 /> */}
+      {/* <Video /> */}
+      <Collection3 />
     </MainLayout>
   )
 }

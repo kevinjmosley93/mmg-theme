@@ -8,10 +8,8 @@ body {
 a {
   text-decoration: none;
   &:hover {
-    &:hover {
-      color: red;
-      cursor: pointer;
-    }
+    color: red;
+    cursor: pointer;
   }
 }
 .fixed-nav {
@@ -23,10 +21,15 @@ a {
       }
     }
   }
+}
 
-  .header {
-    position: fixed;
-    width: 100%;
-    z-index: 20;
-  }
+#shopify-section-header {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+.fas.fa-bars:hover,
+.fas.fa-times:hover {
+  cursor: pointer;
 }

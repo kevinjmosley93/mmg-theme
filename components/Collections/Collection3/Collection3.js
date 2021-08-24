@@ -5,7 +5,7 @@ const Collection3 = () => {
     <div className='collection collection3'>
       <div className='container'>
         <h1>Collection 3</h1>
-        <div className='row justify-content-center align-items-center'>
+        <div className='row'>
           <div className='col-md-3'>
             <div className='collection3__collection-item'>
               <div className='collection3__product-img'>

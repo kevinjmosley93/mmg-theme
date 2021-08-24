@@ -56,7 +56,7 @@ const Collection1 = () => {
           </div>
           <div className='col-md-4'>
             <div className='collection1__collection-item'>
-              <div className='collection1__product-img'>
+              <div className='collection1__product-img collection1__product-img--circle'>
                 <div className='collection1__heart'>
                   <i className='fas fa-heart'></i>
                 </div>

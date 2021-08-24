@@ -2,22 +2,16 @@
   position: relative;
   .side-navbar {
     z-index: 100;
-    width: 180px;
+    width: 200px;
     height: 100%;
     position: fixed;
     margin-left: -300px;
-    background-color: #100901;
-    transition: 0.5s;
-  }
-
-  .nav-link:active,
-  .nav-link:focus,
-  .nav-link:hover {
-    background-color: #ffffff26;
+    background-color: black;
+    transition: 0.5s all ease-in-out;
   }
 
   .my-container {
-    transition: 0.4s;
+    transition: 0.5s all ease-in-out;
   }
 
   .active-nav {
@@ -30,7 +24,6 @@
   }
 
   #menu-btn {
-    background-color: #100901;
     color: #fff;
     margin-left: -62px;
   }
