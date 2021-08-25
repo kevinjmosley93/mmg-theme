@@ -3,6 +3,10 @@
   padding: 50px 0;
   &__logo {
     color: white;
+    width: 100%;
+    img {
+      object-fit: contain;
+    }
   }
   &__links {
     display: flex;
@@ -28,6 +32,10 @@
     margin-bottom: 1rem;
     border-radius: 4px;
   }
+  input:focus {
+    border: none;
+    outline: none;
+  }
   p {
     font-size: 0.7rem;
     line-height: 1.7;
@@ -40,12 +48,12 @@
   }
   &__social-link {
     display: block;
-    padding: 12px;
+    padding: 12px 0;
     color: rgb(126, 126, 126);
   }
   &__bottom {
     border-top: 1px solid rgb(126, 126, 126);
-    padding: 20px 0 0 0;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
   }

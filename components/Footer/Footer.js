@@ -6,12 +6,12 @@ const Footer = () => {
       <footer className='footer'>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-1 mb-md-0 mb-4'>
+            <div className='col-md-3 mb-md-0 mb-4'>
               <div className='footer__logo'>logo</div>
             </div>
-            <div className='col-md-7'>
+            <div className='col-md-5'>
               <div className='row'>
-                <div className='col-md-4 col-6'>
+                <div className='col-6'>
                   <div className='footer__links'>
                     <span className='footer__column-title'>Get Help</span>
                     <a className='footer__link'>Link</a>
@@ -19,15 +19,7 @@ const Footer = () => {
                     <a className='footer__link'>Link</a>
                   </div>
                 </div>
-                <div className='col-md-4 col-6'>
-                  <div className='footer__links'>
-                    <span className='footer__column-title'>Get Help</span>
-                    <a className='footer__link'>Link</a>
-                    <a className='footer__link'>Link</a>
-                    <a className='footer__link'>Link</a>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-12 d-md-block d-none'>
+                <div className='col-6'>
                   <div className='footer__links'>
                     <span className='footer__column-title'>Get Help</span>
                     <a className='footer__link'>Link</a>
@@ -49,8 +41,8 @@ const Footer = () => {
                   type='text'
                   name='email_newsletter'
                 />
-                <a className='btn btn-sm btn-primary'>Send</a>
-                <p>
+                <a className='btn btn-sm btn-primary mb-2'>Send</a>
+                <p className='text-justify text-wrap'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                   quis sem vitae mauris viverra luctus. Pellentesque sit amet
                   sodales diam. Suspendisse varius urna risus, eget vulputate
@@ -72,8 +64,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className='row'>
-              <div className='col-lg-12'>
+            <div className='row p-0'>
+              <div className='col-lg-12 p-0'>
                 <div className='footer__bottom'>
                   <div className='footer__copyright'>copyright 2021 Store</div>
                   <a className='footer__extra-links'>Link</a>

@@ -39,7 +39,7 @@ const Collection3 = () => {
             <div className='collection3__collection-item'>
               <div className='collection3__product-img'>
                 <div className='collection3__heart'>
-                  <i className='fas fa-heart'></i>
+                  <i class='fas fa-cart-plus'></i>
                 </div>
                 <img
                   className='collection3__img-front'

@@ -58,7 +58,7 @@ const Collection1 = () => {
             <div className='collection1__collection-item'>
               <div className='collection1__product-img collection1__product-img--circle'>
                 <div className='collection1__heart'>
-                  <i className='fas fa-heart'></i>
+                  <i class='fas fa-cart-plus'></i>
                 </div>
                 <a className='img-link'>
                   <img src='https://smallimg.pngkey.com/png/small/121-1212899_book-clipart-story-time-story-book-picture-books.png' />
